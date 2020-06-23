@@ -1,2 +1,32 @@
 # Project exclude paths
 /venv/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/src/main/resources/application-*.yml
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+###/src/main/resources/application-local.yml
+/loghome_IS_UNDEFINEDpayment-log.*.log
+/src/main/resources/application-local.yml
+!/@logback.root.path@/cmsystem-log.2017-11-12.log
+/@logback.root.path@/
+/logs/
+/*.log
